@@ -1,3 +1,25 @@
+---
+Make:
+  bottom:
+    template: printing.md
+    stl-file: models/bottom_v1.3.stl
+    stlname: bottom_v1.3.stl
+    material: PLA
+    weight-qty: 50g
+  rack legs:
+    template: printing.md
+    stl-file: models/Rack_Leg_21_Units.stl
+    stlname: Rack_Leg_21_Units.stl
+    material: PLA
+    weight-qty: 60g
+  stuff shelf:
+    template: printing.md
+    stl-file: models/Stuff_Shelf_1.0.stl
+    stlname: Stuff_Shelf_1.0.stl
+    material: PLA
+    weight-qty: 50g
+---
+
 # Construct the and populate the rack
 
 {{BOM}}
@@ -7,7 +29,7 @@
 
 ## Attach the legs to the bottom{pagestep}
 
-* Get the [bottom](fromstep){qty:1, cat:printed} and the four [rack legs](fromstep){qty:4, cat:printed} that you printed earlier.
+* Get the [bottom]{make, qty:1, cat:printed} and the four [rack legs]{make, qty:4, cat:printed} that you printed earlier.
 * Get an [3mm Allen key](parts/metric_allen_keys.md){qty:1, cat:tool} ready
 * Use four [M4x10mm countersunk screws]{qty:4} to attach a leg to each corner of the bottom.
 
@@ -16,14 +38,14 @@
 
 ## Add the NUC and Netgate shelves {pagestep}
 
-* Lightly screw two [M4x10mm cap screws]{qty:2, cat:mech} into the top two holes of the [Assembled NUC Shelf](fromstep){qty:1, cat: prev} until they first start to bite.
+* Lightly screw two [M4x10mm cap screws]{qty:2, cat:mech} into the top two holes of the [Assembled NUC Shelf](nuctall_shelf.md){make, qty:1, cat: prev} until they first start to bite.
 * Check the screws are not protruding through the back of the shelf-front
 * Slide the shelf over the legs and down to the bottom of the rack
 * Don't tighten  the screws up yet!
 
 ![](images/RackAssembly3.jpg)
 
-* Repeat the same process with the [Assembled Netgate Shelf](fromstep){qty:1, cat: prev} and two more [screws][M4x10mm cap screws]{qty:2, cat:mech}.
+* Repeat the same process with the [Assembled Netgate Shelf](netgate_shelf.md){make, qty:1, cat: prev} and two more [screws][M4x10mm cap screws]{qty:2, cat:mech}.
 
 
 ![](images/RackAssembly4.jpg)
@@ -31,19 +53,19 @@
 
 ## Mount the Omni on top of the rack {pagestep}
 
-* Take the [Assembled Omni Shelf](fromstep){qty:1, cat: prev} and place it on top of the rack so the screen on the omni face the front of the rack.
+* Take the [Assembled Omni Shelf](omnicharge_shelf.md){make, qty:1, cat: prev} and place it on top of the rack so the screen on the omni face the front of the rack.
 * Use four [M4x10mm countersunk screws]{qty:4} to attach the shelf to the four legs of the rack
 
 ![](images/RackAssembly6.jpg)
 
 ## Mount the Patch Panel and Switch {pagestep}
 
-* Slide the [Assembled Patch panel](fromstep){qty:1, cat: prev} into the rack  as high as it will go.
+* Slide the [Assembled Patch panel](patch_panel.md){make, qty:1, cat: prev} into the rack  as high as it will go.
 * Use two [M4x10mm cap screws]{qty:2, cat:mech} to secure it in place.
 
 ![](images/RackAssembly7.jpg)
 
-* Now slide the [Assembled UniFi Switch Shelf](fromstep){qty:1, cat: prev} underneath the patch pannel.
+* Now slide the [Assembled UniFi Switch Shelf](switch_shelf.md){make, qty:1, cat: prev} underneath the patch pannel.
 * Use two [M4x10mm cap screws]{qty:2, cat:mech} to secure it in place.
 
 ![](images/RackAssembly8.jpg)
@@ -58,10 +80,10 @@
 ## Insert the remaining shelves {pagestep}
 
 * Insert the final four shelves into the remain space in the following order (from top to bottom)
-    * [Assembled USB Power Shelf](fromstep){qty:1, cat: prev}
-    * [Assembled SSD shelf](fromstep){qty:1, cat: prev}
-    * [Assembled Raspberry Pi Shelf](fromstep){qty:1, cat: prev}
-    * [Stuff Shelf](fromstep){qty:1, cat: printed}
+    * [Assembled USB Power Shelf](usb_shelf.md){make, qty:1, cat: prev}
+    * [Assembled SSD shelf](ssd_shelf.md){make, qty:1, cat: prev}
+    * [Assembled Raspberry Pi Shelf](pi_shelf.md){make, qty:1, cat: prev}
+    * [Stuff Shelf]{make, qty:1, cat: printed}
 * Secure each in place with two [M4x10mm cap screws]{qty:8, cat:mech} 
 
 ![](images/RackAssembly10.jpg)

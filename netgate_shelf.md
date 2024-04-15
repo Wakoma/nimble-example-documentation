@@ -1,4 +1,17 @@
-# Assemble the Netgate 1100 Shelf
+---
+Tags: shelf
+Make:
+  Netgate Shelf:
+    template: printing.md
+    stl-file: models/SG-1100_Shelfv1.1.stl
+    stlname: SG-1100_Shelfv1.1.stl
+    material: PLA
+    weight-qty: 50g
+---
+
+# The Netgate 1100 Shelf
+
+## Assembling the Netgate 1100 Shelf
 
 {{BOM}}
 
@@ -6,7 +19,7 @@
 
 ## Prepare the tray {pagestep}
 
-* Take the [Netgate Shelf](fromstep){qty:1, cat:printed} you printed earlier and a [2.5mm Allen key](parts/metric_allen_keys.md){qty:1, cat:tool}.
+* Take the [Netgate Shelf]{make, qty:1, cat:printed} you printed earlier and a [2.5mm Allen key](parts/metric_allen_keys.md){qty:1, cat:tool}.
 * Lightly screw a [M3x12mm cap screw][M3x12mm cap screws]{qty:2} into the top hole of each of the two rear posts.
 * Make sure each screw is inserted less than half way.
 
@@ -25,4 +38,3 @@
 
 ![](images/Netgate4.jpg)
 
-[Assembled Netgate Shelf]{output, qty:1, hidden}

@@ -1,3 +1,13 @@
+---
+Make:
+  Power Box:
+    template: printing.md
+    stl-file: models/Power_Box_v1.3.stl
+    stlname: Power_Box_v1.3.stl
+    material: PLA
+    weight-qty: 60g
+---
+
 # Wiring The Nimble
 
 >!! **TODO**
@@ -8,6 +18,9 @@
 >!! * Annotate images to be clear what we are looking at
 
 {{BOM}}
+
+
+Once done must mention [Power Box]{make, qty:1,cat:printed}
 
 ![](images/IMG_20210417_110410253_Large.jpg)
 

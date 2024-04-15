@@ -1,4 +1,17 @@
-# Assemble the Pi Shelf
+---
+Tags: shelf
+Make:
+  Raspberry Pi Shelf:
+    template: printing.md
+    stl-file: models/RPi_4B_Shelf_v1.3.stl
+    stlname: RPi_4B_Shelf_v1.3.stl
+    material: PLA
+    weight-qty: 50g
+---
+
+# The Pi Shelf
+
+## Assembling the Pi Shelf
 
 {{BOM}}
 
@@ -6,7 +19,7 @@
 
 ## Position the Raspberry Pi {pagestep}
 
-* Take the [Raspberry Pi Shelf](fromstep){qty:1, cat:printed} you printed earlier
+* Take the [Raspberry Pi Shelf]{make, qty:1, cat:printed} you printed earlier
 
 ![](images/PiShelfAssembly1.jpg)
 
@@ -21,5 +34,3 @@
 * Using four [M2.5x6mm cap screws]{qty:4} and a [2mm Allen key](parts/metric_allen_keys.md){qty:1, cat:tool}, secure the pi to the shelf.
 
 ![](images/PiShelfAssembly3.jpg)
-
-[Assembled Raspberry Pi Shelf]{output, qty:1, hidden}

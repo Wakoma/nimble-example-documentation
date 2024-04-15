@@ -1,5 +1,17 @@
-# Assemble the Patch Pannel
+---
+Tags: shelf
+Make:
+  Patch panel:
+    template: printing.md
+    stl-file: models/Keystone_Patch_Panel_2_Unitsv2.1.stl
+    stlname: Keystone_Patch_Panel_2_Unitsv2.1.stl
+    material: PLA
+    weight-qty: 50g
+---
 
+# The Patch Pannel
+
+## Assembling the Patch Pannel
 
 
 {{BOM}}
@@ -13,7 +25,7 @@
 
 ## Attach the Ethernet Keystones{pagestep}
 
-* Take the [Patch panel](fromstep){qty:1, cat:printed} you printed earlier and three [ethernet keystones][Ethernet Keystones](parts/EthernetKeystone.md){qty:3, cat:net}
+* Take the [Patch panel]{make, qty:1, cat:printed} you printed earlier and three [ethernet keystones][Ethernet Keystones](parts/EthernetKeystone.md){qty:3, cat:net}
 * These will be clipped into the three left hand panels
 
 ![](images/Patch1.jpg)
@@ -40,4 +52,3 @@
 
 ![](images/Patch7.jpg)
 
-[Assembled Patch panel]{output, qty:1, hidden}

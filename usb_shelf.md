@@ -1,5 +1,17 @@
-# Assemble the USB Power Shelf
+---
+Tags: shelf
+Make:
+  USB Power Shelf:
+    template: printing.md
+    stl-file: models/USB_Hub_Shelf_v1.2.stl
+    stlname: USB_Hub_Shelf_v1.2.stl
+    material: PLA
+    weight-qty: 50g
+---
 
+# The USB Power Shelf
+
+## Assembling the USB Power Shelf
 
 {{BOM}}
 
@@ -7,7 +19,7 @@
 
 ## Prepare the tray {pagestep}
 
-* Take the [USB Power Shelf](fromstep){qty:1, cat:printed} you printed earlier and a [2.5mm Allen key](parts/metric_allen_keys.md){qty:1, cat:tool}.
+* Take the [USB Power Shelf]{make, qty:1, cat:printed} you printed earlier and a [2.5mm Allen key](parts/metric_allen_keys.md){qty:1, cat:tool}.
 * Lightly screw a [M3x12mm cap screw][M3x12mm cap screws]{qty:4} into the top hole of each of the 4 side-posts.
 * Make sure each screw is inserted less than half way.
 
@@ -24,5 +36,3 @@
 *{warning}  Do not over tighten the screws in this step as this may damage the plastic. 
 
 ![](images/AnkerUSBPower3.jpg)
-
-[Assembled USB Power Shelf]{output, qty:1, hidden}

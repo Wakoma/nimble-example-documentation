@@ -1,3 +1,21 @@
+---
+Make:
+  AP Mount Top:
+    template: printing.md
+    stl-file: models/AP_Mount_for_1430New_v1.5_Top.stl
+    stlname: AP_Mount_for_1430New_v1.5_Top.stl
+    material: PLA
+    weight-qty: 40g
+    supports: "Yes"
+  AP Mount Bottom:
+    template: printing.md
+    stl-file: models/AP_Mount_for_1430New_v1.5_Top.stl
+    stlname: AP_Mount_for_1430New_v1.5_Top.stl
+    material: PLA
+    weight-qty: 40g
+    supports: "Yes"
+---
+
 # Prepare the case
 
 {{BOM}}
@@ -7,7 +25,7 @@
 
 ## Construct the lid insert {pagestep}
 
-* Join [AP Mount Top](fromstep){qty:1,cat:printed} and [AP Mount Bottom](fromstep){qty:1,cat:printed} together using two [M4x10mm countersunk screws]{qty: 2,cat: mech} and a [3mm Allen key](parts/metric_allen_keys.md){qty: 1,cat: tool}
+* Join [AP Mount Top]{make, qty:1,cat:printed} and [AP Mount Bottom]{make, qty:1,cat:printed} together using two [M4x10mm countersunk screws]{qty: 2,cat: mech} and a [3mm Allen key](parts/metric_allen_keys.md){qty: 1,cat: tool}
 * Using three more [M4x10mm countersunk screws]{qty: 3,cat: mech} attach the brackets that came with your three UniFi Access Points to the holes just below the join between the two prints.
 
 ## Attach to case{pagestep}

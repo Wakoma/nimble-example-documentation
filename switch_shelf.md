@@ -1,4 +1,17 @@
-# Assemble the UniFi Flex Switch Shelf
+---
+Tags: shelf
+Make:
+  UniFi Switch Shelf:
+    template: printing.md
+    stl-file: models/USW-Flex_Shelfv1.2.stl
+    stlname: USW-Flex_Shelfv1.2.stl
+    material: PLA
+    weight-qty: 50g
+---
+
+# The UniFi Flex Switch Shelf
+
+## Assembling the UniFi Flex Switch Shelf
 
 {{BOM}}
 
@@ -6,7 +19,7 @@
 
 ## Prepare the tray {pagestep}
 
-* Take the [UniFi Switch Shelf](fromstep){qty:1, cat:printed} you printed earlier and UniFi Switch Mounting Bracket (This should come with the switch)
+* Take the [UniFi Switch Shelf]{make, qty:1, cat:printed} you printed earlier and UniFi Switch Mounting Bracket (This should come with the switch)
 * Place the bracket on the tray so that the extended flat raised section faced the front of the tray
 
 ![](images/UniFi_Flex_Switch1.jpg)
@@ -26,5 +39,3 @@
 ![](images/UniFi_Flex_Switch4.jpg)
 ![](images/UniFi_Flex_Switch5.jpg)
 ![](images/UniFi_Flex_Switch6.jpg)
-
-[Assembled UniFi Switch Shelf]{output, qty:1, hidden}
